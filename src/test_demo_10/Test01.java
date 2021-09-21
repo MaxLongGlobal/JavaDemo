@@ -1,14 +1,11 @@
 package test_demo_10;
-
-import test_demo_09.Test10;
-
+//while(布尔表达式) {...}
 public class Test01 {
 	public static void main(String[] args) {
-		
-		Test10 t10 = new Test10();
-		
-		boolean result = t10 instanceof Test10; 
-		System.out.println(" result is " + result);
-		
+		int i = 0;
+		while(i <= 5) {
+			System.out.println("hello world! i = " + i);
+			i++;
+		}
 	}
 }
