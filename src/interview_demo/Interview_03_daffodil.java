@@ -19,12 +19,12 @@ public class Interview_03_daffodil {
 			//¸öÎ»Êý
 			c = i - a*100- b*10;
 			if(i == (a*a*a + b*b*b + c*c*c)) {
-				str += Integer.toString(i) + ",";
+				str += Integer.toString(i) + " ";
 //				System.out.println("daffodil is " + i + a + b + c);
 			}
 			
 		}
-		System.out.println("all daffodil is " + str);
+		System.out.println("all daffodil is " + str + ".");
 
 	}
 	
