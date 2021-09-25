@@ -22,7 +22,7 @@ public class Interview_04_Fibonacci {
 	public static void main(String[] args) {
 		Interview_04_Fibonacci fib = new Interview_04_Fibonacci();
 		String str = "";
-		for(long i = 1; i<=50; i++) {
+		for(long i = 1; i<=20; i++) {
 			str +=" " + Long.toString(fib.fibonacci(i));
 		}
 		System.out.println("Daffodil is" + str + ".");
